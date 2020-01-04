@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.css">
+
+  <!-- Demo styles -->
+  <style>
+html,body{position:relative;height:100%}
+body{background:#eee;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;color:#000;margin:0;padding:0}
+.swiper-container{width:100%;height:100%;background:url(https://ae01.alicdn.com/kf/Hdea283c9b61c4f21a1261386330c0665q.jpg) no-repeat;background-size:100%}
+.swiper-slide{text-align:center;font-size:18px;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
+.swiper-slide>img{width:100%;border-radius:10px}
+@media (max-width:760px){.swiper-button-next{right:20px;transform:rotate(90deg)}
+.swiper-button-prev{left:20px;transform:rotate(90deg)}
+}.swiper-slide-next{transform:scale(1.3) !important}
+.video>video{position:fixed;left:0;top:0;max-width:560px;width:100%;height:100vh;background:#000}
+.video>img{position:fixed;left:10px;top:15px}
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcws.video.gtimg.com/uwMROfz2r5zAoaQXGdGnC2dfhzkrvqBxjTHFA2hC4m2Yr1g7/o3045b16xfk.m701.mp4?vkey=880B911D6C577FD4E6D1553D7CEC5A024A106B595F2B38563C7B989A583BBE56F686AE3937A4E9234B3DCC2687A9976AA6EDC46997C1E4D2078261A1B1CFC39237F4AF692B309E06B678160898575F4C677E61A7F471A275213469237B6EA780442D9CD8B18169995F30143E7D6E6B66208C445E7899657D2FC72B2F1F0814FB&br=29&platform=2&fmt=auto&level=0&sdtfrom=v3010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/Hf9a01b75382a4e4891e327676978491dW.png"></div>
+
+
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://121.228.105.19/vhot2.qqvideo.tc.qq.com/A7UKHJB4KloTS_zZPpsMkNSJOKmRr73cnxKJtIPHu05Q/uwMROfz2r5zEIaQXGdGnC2dfhzkPz8itARfiFgGOU57BRa9q/w3037llh9hk.m701.mp4?vkey=7D2E513D57860EBE9FB956074F42D10B8A07ECDC26DC230CE5946E20095D0F5BAD96097AB8CB6AFE08AAD56C238D4EA39058B1C1C6B79A5665A8870F7A1922F847F1A016DE3552ECF81A5C340C81919CD4A943B891E978816F630C0B66C715C5BDCAAE01D319BB520CBD6E8248577FD37A5161AE3F60FA8BF72596EB0171D413&br=29&platform=2&fmt=auto&level=0&sdtfrom=v3010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H3a03fe5aa0324bbc87b37e06a69657bcM.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://222.186.181.15/vhot2.qqvideo.tc.qq.com/AvuSdyQt-dnULMSu-ENvS24WfUpaMbmVKNApavQgM42k/uwMROfz2r5zAoaQXGdGnC2dfhzkrvqBxjTHFA2hC4m2Yr1g7/y3045hdyteq.m701.mp4?vkey=957AF2EB0B6375F037098954EA173AC1841A55B405E2E35E60FA1F9789C7FEF48D116CC47B0AB965381E13A50E95834989353B2E350B8A1419E80496351CA482628742952B76743B8EA69D3F84AC1384E61998F41B48A33ED97790CA4CCFDF673B0A9F8B4B8DC592CF74895A318BC92DA96523B73A311DB71102938EFCFC9962&br=29&platform=2&fmt=auto&level=0&sdtfrom=v3010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/Hf3cbc19ae3274e469ab4f63f2f37e8deV.png"></div>
+      <div class="swiper-slide"><img data-video="http://ugcbsy.qq.com/uwMROfz2r5zEIaQXGdGnC2dfhzkPz8itARfiFgGOU57BRa9q/n3020mkpvrn.m701.mp4?vkey=7D4B3437DFEBA586891F537E8198554C386ADBF8585F6CA5A85035695CBDA1AC0876B388ADF42F8F5F6C6AAABC2C8AA1B33317B5C7C5AC18DE58B911B7CF52A74F377479A07AAC07EDCBDDEF48D3665EF732B17285254DCD26609EEA2112935FE8C8688BEC0B566F78EF71241D9A985035F39703C3DD252B627B16F8095418E5&br=29&platform=2&fmt=auto&level=0&sdtfrom=v3010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H7fd05379af834472914c7cf04af42d3fn.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://58.221.77.146/vhot2.qqvideo.tc.qq.com/AcyWshoLN5AKPSQkMLgjFQ1oOqojVMQV3IuD2SdO4ik8/uwMROfz2r5zEIaQXGdGnC2dfhzkPz8itARfiFgGOU57BRa9q/n3020mkpvrn.m701.mp4?vkey=E68D42FD80C19C90B9A8601F6F661760FBFC3E184547746F17EACA2DE33629B0B7C0C57CCB5F54414D2635620B9F316064A412C903C8E2120B8B4EAB81408EE47E42034C2B8ADA74B8763D375EF3865DFE45D1AAFF3EDE16739C596C36AE7B038BB6E8E23846DDF12DE4CFE44E5C432214C15755FCEC88D64096E0CE218ABAF7&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H5c0a6c3685644b19b5154ee72428f3e5Q.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://58.221.77.150/vhot2.qqvideo.tc.qq.com/Avlr_TQsTcI0q_ilNTKul1donZuOmGwAVTkY5a5xgC3o/uwMROfz2r5zCIaQXGdGnC2dfhzk_jigLCkkLvI0zErHWpl3G/n300673iwfx.m701.mp4?vkey=227A9AD67DAAAF39847E244F48DBE90EEC9D73E0A79E028A6AA0AB90641244EC6C65A06CB3CE3FDFFD73038170B958A09B444EF924C48AF34C8563BDEA6C556DDD1D4EF37F4E27AA3C5B22F70350CA10139EF3FB3996F81CCFEDFF4C67BF6AB11EB6720F820DAFF989E539152A6CF918A899FCB745E24E9EBA4A632D2D83B3E2&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H5090d11a22164447ad128f71d3de4d6eu.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcws.video.gtimg.com/uwMROfz2r5zAoaQXGdGnC2dfhzkrvqBxjTHFA2hC4m2Yr1g7/y30062xbvjl.m701.mp4?vkey=43626069D166DCBCAAA0EFCE6E0F4388F989D7B9E4E9447A1249BB3A70B69D6326D8DACAFF5455B40B5B5937DCEA16BAB1F4230220C2E34DA80EE0CCB42C8278EFF35DF38F040D3739410DC7BD00E6474D4735214A07585F5642BDBEFCCB4995A8AD621FB2C68988D0B4169BCC6717046A6D3A10C923414AF087965DB2882E5C&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H2a6f60028c4a4361bce374f8aaa32987b.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcydzd.qq.com/uwMROfz2r5zAoaQXGdGnC2dfhzkrvqBxjTHFA2hC4m2Yr1g7/a3045o0eol8.m701.mp4?vkey=DC2604112E44C9F093788A61EABF63CD78F33A4D35DAAEDCFE18019AA54FB2807EE87F787FB662A5B555FA5CB23CD250EE0E3D4C1512D882CB1837ECD5D132DC18705782B24B47C045C943F92A60FE3F12FB6A7B3FEE9B247F0D5A3C6E55B22AF59B308FEDDF7CCEF4FE779D8EBA5C13FDAAB49EA9D2B46CF03A9F049E3D8999&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H8d4b1e6f85544b25846cd8689b8f8e59J.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcws.video.gtimg.com/uwMROfz2r5zAoaQXGdGnC2dfhzkrvqBxjTHFA2hC4m2Yr1g7/l3045bi1mbp.m701.mp4?vkey=09FAD7739CD6CA8A87158F89EBD54572154E66CC73DFF70E8C2B5004419831F12FA4736B44A4D6103A16040D407BF3DB740C37FDB9DF092FF0C27F1E2007A2B3B1F6BBF786AF7B2D5E13DCA09D8CC758415369883B9B7C62008A9259A0E122F3F726B14AFF5F0E3C9988518DC264A80F2B038B8B28418B0FCA8038DE0351D3B4&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/He00c91015cd9499fb7a1d6cb6932b53ce.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://58.216.6.25/vhot2.qqvideo.tc.qq.com/AJarK7P4UiZHnx9iAYsNfzUEH3hCUe8JN63xhr5WuybI/uwMROfz2r5zCIaQXGdGnC2dfhzk_jigLCkkLvI0zErHWpl3G/n303956f99j.m701.mp4?vkey=5B0A909601F2E27AC3DF01DF74A15E6DB9A66116D02EEC702F8327937C7D177F5D1A1AB248E9CC42C391280477935636EF4D4F0FC28B2B759F4FC330935E40D91CC4B340FBD321E29703B7B49A72B7BC00BBD741CA67B19E2DDCB48981A54BD9790013586D1736BC03FBBB378B9C87C49BE5AB4D49774695CF620F43AF679CF3&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/Hd67a45d102d946428f08a22f0ed07e26n.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcsjy.qq.com/uwMROfz2r5zBIaQXGdGnC2dfhzknrthYD-Z_acttsiZdV6SQ/c30080cgfk2.m701.mp4?vkey=6A424FFF1EB118EFF1B3CDA67D3C1D0C67C6B1951DBAFFD93675F4CFD12B4BA134F53B1A64909620D444784DAB70E85439E7C28F15B331895BA0377EB7CDBB157F71CE4889ADA2288CBDF8F997EFF2B66491C04C9EFCBB3FF918DA68979AE2AE88F4C55F5F04F99CF79A7FD0212332489E482F48CC4F139D50A439E4944476FB&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/Head1a0da84ca47cb8f58385ec08e453cy.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://121.228.105.19/vhot2.qqvideo.tc.qq.com/Ad3xo-JBr0z4FbtBHa2bxu5gsObn1Db9mrjCNUexH_hY/uwMROfz2r5zEIaQXGdGnC2dfhzkPz8itARfiFgGOU57BRa9q/e08875i78yu.m701.mp4?vkey=030DEDF60CD0803D662F95890FF4CE259F73D2FBBC1FA48F4AF057C21DD7230957583CC347EAEF5E116242ED9B99A8E51153723A273D00698B09DBE461F9B562E690B486D252DC87A3F5643FEBFB524D4878BE449FBD96AB2499C981DB8CEB1F210D4C5A09A315E4B4E36438AAACC5EE945EDF995C3E6E08D1C754987D00EC4B&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/Ha791ba49645741dfae26db8fe3310e19j.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcws.video.gtimg.com/uwMROfz2r5zBIaQXGdGnC2dfhzknrthYD-Z_acttsiZdV6SQ/q30461fhaz6.m701.mp4?vkey=4DB09BE58A76BB5C50AA0950C53787533B9FA4262DDD9297AB8A914B03DE4F03D58E980DE8F7C3686F917F769C1558583C8260FC1AB8B09F088AC41186A063512C4A1CE5486B41ABAAA108AEE394D0E27CB27FE08C56043A0B9319801439A36F59FF4283AAC318B9EC81FEA0485FD814E34300AEFAA94EC537332BEFF08E64DD&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://pic.downk.cc/item/5e1050a276085c3289b2f6d9.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://222.186.181.21/vhot2.qqvideo.tc.qq.com/AMGogsGH93FumBoD7xoeDDEgWOBb7VrrHL5BfkFCz2fg/uwMROfz2r5zEIaQXGdGnC2dfhzkPz8itARfiFgGOU57BRa9q/p3029cta0uw.m701.mp4?vkey=B443D7DA94293C2F12711A2CDB345B0584BC44C95408CB71DA61F5F55369F48A257B0F7D0F55CD73CD7AAE69D2B7CB1C15F2C62C0FB6005FB96A0F44D9690D22697027E8D8F7B18F1D3559309C17C9A555109321B49BEA96383E5557A9F116C2D08FC735F359F65272663A60A76AC50BEDD456D741C361782A8889A79426DC7B&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/Hb105f07dc90047adb9907294e646d4037.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://121.228.105.24/vhot2.qqvideo.tc.qq.com/ANj_9BCBvPxdNV1AKFKsrz8c2wWv02WaGqB84kdbDL94/uwMROfz2r5zBIaQXGdGnC2dfhzknrthYD-Z_acttsiZdV6SQ/j3045xmdu78.m701.mp4?vkey=E7F595591203C151249B5AC975644B25F90644EC658CE41DE1DF8D818B238247958B1F3E95E7DF9B558F9165170A4CC30139AF6D654018DB79F7DAB3AC905E29223254DF9C9CC82E3FBFB233AF6FDF7D61FB5962642B9BD7ACD227D3C595C2E3C27BCD454AE2CF78BAC2006F835D6809F16DB87D5D01E99D03B24D36C9B9B6A9&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H35c2547d91324b4e8edc79331ce388bbX.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcws.video.gtimg.com/uwMROfz2r5zBIaQXGdGnC2dfhzknrthYD-Z_acttsiZdV6SQ/x3045da6ta9.m701.mp4?vkey=7733229B2ECB83B31D8B49BB5E99463F1FD9B43D92946F3703B460889D38FA7EC7C6BB0E5A1A9358E569C8B8C62B164B36BEDC7510E2B92068CC40DBB6B7F276DEB935BC2B1A9286A4871AEC689BE4648B0A7EA28740511FEDCDF7CB6A76C6852BF23E17DC90A80EDBCD85BEB49F940179C5904BEE88947EB42F995394BFE6CE&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H4ab0dfe3c50443e0be7a99864b62507ff.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcws.video.gtimg.com/uwMROfz2r5zBIaQXGdGnC2dfhzknrthYD-Z_acttsiZdV6SQ/o3045rbtb7g.m701.mp4?vkey=DB42C29313EC64A3BC7CC9D6E7AC576C1F34D83E5D5C315E5CB9547F084F95B6FA4C1D8E404CB50D90153DFC22E922C8E6E411B5BF3639174AF6BC781D2DE4830D86288952691B6A9011A6F9F73BDB2F6702E5038823181A1DEF29CCF738A499FFBAE3909E8DB1AB7E0F56731CE97F4E4413CF48760D2680344DC7F23347EDDC&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H93f15bdc161e46cdbb14297325e6e6c5h.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://121.228.105.14/vhot2.qqvideo.tc.qq.com/AyvPQfGGBkI7ynMvWKmA0B-XM1PcaquOpBZicdAjHj0w/uwMROfz2r5zCIaQXGdGnC2dfhzk_jigLCkkLvI0zErHWpl3G/u088667q3tv.m701.mp4?vkey=B1F464BF07BB5EFBC6CDA733D3510FC10FD66422C8CA7CEEBA06EDC7A0DA30D48FC392B7EDA15A1A08AF8FD8CE2104A64F0C7E72ADA385DA510EB510E65015B1749A2727AF6445461B14B54D1E25DA9B3442E9A3FB1BE4C613D2649FD0D4822BA173DDA41083DC4892FC26273AF0083D6AC5E21EF68984D93CC60E7CCCC2ECAF&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H49a89e1ff7fa42ce842871edc3dedce0z.png"></div>
+      <div class="swiper-slide"><img onclick="payAudio(this)" data-video="http://ugcbsy.qq.com/uwMROfz2r5zEIaQXGdGnC2dfhzkPz8itARfiFgGOU57BRa9q/w3030vx2zti.m701.mp4?vkey=B0A2180904D972FF1340F64AEA49AF2D635017A12C1187271766497FC76E78853E775B7FF09A135D7D8458C7ABFD21C67512375B26F08DD435608B305CD08FCAD95E3275E3CC33EE6E62F4EA1E99B579463CD73E4A6C6DBCA581587C3B2E89F5038FD77DE7444BF82F0249411C200B1A04DBAC6399599A4ABC1C2299C852EF36&br=29&platform=2&fmt=auto&level=0&sdtfrom=v1010&guid=0df81cdc6a300e3a603533f6441dda13" src="https://ae01.alicdn.com/kf/H8c442f63638e45f08a0fd1316d21bbeb4.png"></div>
+    </div>
+  </div>
+  <div class="video">
+    <video>
+      <source src="" type="video/mp4" />
+    </video>
+    <img class="Close" src="https://ae01.alicdn.com/kf/H6a233c125d0e4ecf936498f6f41d568bo.png">
+  </div>
+  <!-- jq -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+  <!-- Swiper JS -->
+  <script src="swiper.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop : true,
+      slidesPerView: 3,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        }
+      }
+    });
+
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 760 ? 'vertical' : 'vertical';
+
+      return direction;
+    }
+
+
+
+</script>
+  <script type="text/javascript">
+  function payAudio(obj){
+          var video = $(obj).data("video");
+          // console.log(video);
+          $("video").attr("src",video);
+        };
+  // var video = $(obj).data("video");
+
+  $(".swiper-slide").click( function () { 
+    $('.Close').css("z-index","2");
+    $('video').css("z-index","2");
+    $('video').attr('autoplay','autoplay');
+
+    var video = document.querySelector('video');
+    video.play();
+
+  });
+  $(".video,.Close").click( function () { 
+    $('.Close').css("z-index","0");
+    $('video').css("z-index","0");
+    $("video").attr("controls","controls");
+    var video = document.querySelector('video');
+    video.pause();
+  }); 
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
